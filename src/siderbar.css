@@ -1,0 +1,40 @@
+.sidebaring {
+  height: 100vh;
+  flex: 0.2;
+  background-color: black;
+  color: black;
+  min-width: 230px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logoforsidebar {
+  width: 100%;
+  margin-top: -10%;
+}
+.home {
+  display: flex;
+  margin-left: 15%;
+}
+.search {
+  display: flex;
+  margin-left: 15%;
+}
+.library {
+  display: flex;
+  margin-left: 13%;
+}
+#homeimage {
+  width: 10%;
+}
+.playlist {
+  margin-left: -55%;
+}
+hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
+}
+.playlisting {
+  margin-left: 10%;
+}

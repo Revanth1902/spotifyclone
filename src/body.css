@@ -1,0 +1,61 @@
+.bodyof {
+  flex: 0.8;
+  height: 100vh;
+  height: 100vh;
+  color: #ffff;
+  padding: 30px;
+  background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+  overflow-y: overlay;
+}
+.bodyof::-webkit-scrollbar {
+  display: none;
+}
+.bodyinfo {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+.bodyinfo > img {
+  height: 20vw;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+.bodyinfotxt {
+  flex: 1;
+}
+.bodyinfotxt > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.bodyinfotxt > p {
+  font-size: 14px;
+}
+
+.songicons {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.playtop {
+  margin-right: 20px; /* Increased margin for spacing */
+  font-size: 64px; /* Increased font size */
+  color: #1db954;
+  cursor: pointer;
+}
+
+.fav {
+  margin-right: 20px; /* Increased margin for spacing */
+  font-size: 24px; /* Increased font size */
+  color: #1db954;
+  cursor: pointer;
+}
+
+.horizon {
+  font-size: 130%; /* Increased font size */
+  color: #1db954;
+  cursor: pointer;
+}
+
+/* You can add additional styles or adjust existing ones based on your design requirements */

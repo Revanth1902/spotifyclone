@@ -1,0 +1,44 @@
+.song {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.song:hover {
+  background-color: #282828; /* Spotify-like background color on hover */
+}
+
+.albumimg {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 8px; /* Rounded corners for the album image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+}
+
+.songinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.songinfo h1 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: white;
+}
+.songinfo h1:hover {
+  color: #3d9f60;
+}
+
+.songinfo p {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin: 0;
+}
+
+/* Adjust font sizes, colors, and spacing based on your design preferences */

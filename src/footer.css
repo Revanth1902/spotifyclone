@@ -1,0 +1,112 @@
+.footering {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  background-color: #282828;
+  padding: 20px;
+}
+.footercenter {
+  color: #ffff;
+  flex: 0.4;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+}
+.footerleft {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  color: #ffff;
+  width: 300px;
+}
+.footerright {
+  flex: 0.3;
+}
+.shuffle,
+.repeat {
+  color: #1db954;
+}
+.play:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2);
+}
+.shuffle :hover,
+.repeat :hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+.shuffle,
+.previous,
+.play,
+.repeat,
+.next {
+  font-size: 2em;
+  margin: 0 10px;
+}
+
+.music-player {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.footerright {
+  display: flex;
+  align-items: center;
+}
+
+.footerright {
+  display: flex;
+  align-items: center;
+}
+
+/* Volume Down Icon */
+.volume {
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #1db954; /* Spotify green color */
+}
+
+/* Volume Slider */
+.volume-slider {
+  width: 150px;
+  margin-right: 10px;
+  -webkit-appearance: none;
+  background-color: #888;
+  height: 3px;
+  border-radius: 2px;
+  outline: none;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background-color: #1db954; /* Spotify green color */
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Slider Container */
+.slider-container {
+  display: flex;
+  align-items: center;
+}
+.albumlogo {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  object-fit: contain;
+}

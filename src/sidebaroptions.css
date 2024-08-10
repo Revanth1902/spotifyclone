@@ -1,0 +1,17 @@
+.sidebaroptions {
+  color: grey;
+  height: 40px;
+  cursor: pointer;
+  transition: 150ms color ease-in;
+  display: flex;
+
+  align-items: center;
+}
+.sidebaroptions:hover {
+  color: #ffff;
+}
+.siderbaroptionicon {
+  width: 24px; /* Adjust the width as needed */
+  height: 24px; /* Adjust the height as needed */
+  margin-right: 8px; /* Adjust the spacing between image and title as needed */
+}
